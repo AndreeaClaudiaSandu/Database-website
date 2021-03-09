@@ -1,0 +1,148 @@
+body{
+	background-image: url('poza4.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	margin:0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #F0FFFF
+}
+.active {
+  background-color: #48D1CC;
+}
+table.subst{
+	position: absolute;
+	background-color: white;
+	top: 50px;
+	
+	border-radius: 4px;
+	z-index: -1;
+}
+table.med{
+	position: absolute;
+	background-color: white;
+	top: 50px;
+	left:300px;
+	border-radius: 4px;
+	z-index: -1;
+}
+th, td {
+  padding: 15px;
+  text-align: center;
+}
+caption{
+	color:white;
+	font-size:30px;
+	font-style:italic;
+	font-weight:bold;
+}
+h3{
+	color:white;
+	font-size:30px;
+	font-style:italic;
+	font-weight:bold;
+	margin-left:50px;
+}
+form{
+		margin-left: 50px;
+		border-radius: 4px;
+		background-color: white;
+		width:300px;
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-top: 15px;
+		padding-bottom: 50px;
+		box-sizing: border-box;
+}
+
+input.caseta1{
+	margin-left: 22px;
+}
+input.caseta4{
+	margin-left: 45px;
+}
+input.caseta5{
+	margin-left: 20px;
+}
+input.caseta6{
+	margin-left: 38px;
+}
+input.caseta7{
+	margin-left: 19px;
+}
+
+button{
+	background-color: #00CED1;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	float: right;
+}
+h5{
+	color:white;
+	font-size:20px;
+	font-style:italic;
+	font-weight:bold;
+	margin-left:50px;
+}
+#s{
+    overflow: scroll;
+   
+	width: 500px;
+    height: 675px;
+	overflow-x:hidden;
+ }
+ 
+ 
+ 
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background:#00CED1 ; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #20B2AA; 
+}
+#ss{
+	position:absolute;
+    overflow: scroll;
+    left: 600px;
+	width: 935px;
+    height: 675px;
+	overflow-x:hidden;
+ }
